@@ -25,5 +25,4 @@ urlpatterns = [
     path('hardik/',hardik,name='hardik'),
     path('csk/',include('csk.urls')),
     path('rcb/',include('rcb.urls')),
-    
 ]

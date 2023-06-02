@@ -3,4 +3,5 @@ from csk.views import *
 app_name='csk'
 urlpatterns=[
     path('dhoni/',dhoni,name='dhoni'),
+    path('jadeja/',jadeja,name='jadeja'),
 ]
